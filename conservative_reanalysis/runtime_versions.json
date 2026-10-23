@@ -1,0 +1,16 @@
+{
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "lightgbm": "4.6.0",
+  "xgboost": "3.0.5",
+  "python": "3.12.14",
+  "cohort_records": 72,
+  "cohort_publications": 25,
+  "excluded_source_reference": "[15]",
+  "input_archive_doi": "10.5281/zenodo.23102726",
+  "matplotlib": "3.10.8",
+  "lxml": "6.1.1",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39"
+}

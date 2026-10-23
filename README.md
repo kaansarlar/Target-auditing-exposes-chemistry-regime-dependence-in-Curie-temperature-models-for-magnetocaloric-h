@@ -1,106 +1,50 @@
-[README.md](https://github.com/user-attachments/files/32981557/README.md)
-# Full-text target auditing of Curie-temperature screening
+# Curie-temperature target auditing
 
-This repository contains the public reproducibility package for the manuscript:
+Data and reproducible analysis code for **Target auditing exposes chemistry-regime dependence in Curie-temperature models for magnetocaloric high-entropy alloys**.
 
-> **Full-text target auditing reveals chemistry-regime confounding in composition-only Curie-temperature screening of magnetocaloric high-entropy alloys**
+This source repository contains data, source manifests, code, environment requirements and documentation. Model outputs, saved predictions, fitted models and rendered figures are not tracked. Generate them in a separate output directory; reference numerical outputs remain available in the journal Supplementary Data archive and in the earlier Zenodo release where applicable.
 
-The repository is intentionally compact. It contains the analysis-ready data, publication-group assignments, source manifests, executable analysis code, principal numerical outputs, and final figures required to audit or reproduce the reported results. Manuscript drafts, downloaded source articles, duplicate workbooks, and exploratory files that do not support a reported result are deliberately excluded.
+## Primary conservative analysis
 
-## Version 1.0.1 metadata correction
-
-Version 1.0.1 corrects three nominal-composition labels in source rows 141, 143, and 144 after verification against the source table. The associated `TC` values, all descriptors, publication assignments, deduplication, model inputs, predictions, figures, and reported metrics are unchanged. The full audit is in `docs/DATA_CORRECTIONS.md` and `data/processed/development_curation_audit.csv`.
-
-## Version 1.1.0 target and process audit
-
-Version 1.1.0 adds a full-text audit of all 42 development sources, a conservative target-semantics partition, record-level processing/phase annotations, and a paired publication-grouped comparison of composition-only, process/phase-only, and combined feature sets. The original 141-record analysis is retained unchanged.
-
-## Version 1.2.0 strict-TC and chemistry-regime audit
-
-Version 1.2.0 applies a record-level full-text target audit to all 141 unique development rows. It retains 79 directly reported experimental Curie-temperature records from 26 publications, documents 62 exclusions by reason, corrects two transcription errors against the primary sources, and assigns three prespecified chemistry families. The rare-earth-rich family requires a combined nominal rare-earth fraction of at least 50 at.%; minor rare-earth additions therefore remain in their non-rare-earth chemistry family. The release adds equal-budget grouped model comparison, repeated grouped partitions, within-family and leave-one-family-out tests, a direct target-window classifier, and a strict-cohort process/phase sensitivity analysis. These analyses show that apparently useful pooled performance is substantially explained by chemistry-regime separation and does not transfer within or across families.
-
-## Quick verification
+The primary cohort contains **72 records from 25 publications**. It excludes seven peak-defined source-[15] Perrin et al. records from the broader 79-record cohort. The source authors also discuss those values as Curie temperatures; their exclusion is an operational admissibility choice, not an allegation of measurement error. Source identifiers in CSV files are not manuscript reference numbers.
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python scripts/run_pipeline.py --mode verify
-python scripts/verify_processing_phase_extension.py
-python scripts/verify_strict_tc_extension.py
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python conservative_reanalysis/run_primary.py check
+python conservative_reanalysis/run_primary.py all --output-dir ../curie_outputs --n-jobs 8
+python conservative_reanalysis/verify_outputs.py --output-dir ../curie_outputs
 ```
 
-These fast verification paths normally complete in seconds. They check dataset sizes, publication groups and their size distribution, descriptor–target deduplication, held-out publication coverage, headline regression metrics, development-window metrics, nested rule-selection results, historical and targeted literature outcomes, the v1.0.1 metadata corrections, the strict full-text audit partition, chemistry-family analyses, direct classification, strict-cohort process/phase sensitivity, source manifests, figure availability, and the absence of redistributed source-article PDFs.
+On Windows use `.venv\Scripts\activate`. Use Python 3.12; exact scientific-library versions are pinned. `check` validates source data and dependencies without fitting models. A complete nested refit can take substantial CPU time. The `all` command fits all seven regressors before repeated-partition diagnostics, then direct classifiers and three paired process/phase models. Separate actions are `models`, `robustness`, `classification` and `process`; `robustness` requires `models` outputs. Existing output files are not automatically deleted.
 
-The generated report is written to `docs/VERIFICATION_REPORT.json`.
+The regression and process comparisons use 60 candidates; repeated partitions and classification use 30. Preprocessing and tuning remain inside grouped training loops. Changing software versions is a new reproduction and must not be silently substituted for the original environment. The family baseline uses outer-training targets only. Mean fold R² and pooled R² have different meanings; repeated-partition standard deviations are not confidence intervals. Model-family selection on the same dataset remains a stated limitation.
 
-## Full computational rerun
+## Historical 141-record analysis
+
+`historical_141/` retains the original unharmonized development inputs and executable regression, window-rule and stress-test methods. These analyses do not use the 72-record cohort. They retain their historical dependency ranges separately.
 
 ```bash
-python scripts/run_pipeline.py --mode full --n-jobs 4
+python historical_141/run_historical.py all --output-dir ../curie_historical_outputs --n-jobs 8
 ```
 
-This reruns publication-grouped nested model selection, full-data TreeSHAP interpretation, development-window rules, the historical audit, repeated nested target-window rule selection, external-rule metrics, and Figures 2–7. New files are written under `reproduced/`; supplied reference outputs under `results/` are not overwritten. Runtime is hardware-dependent and may be tens of minutes or longer.
+Actions: `grouped`, `windows`, `rules`, `challenges`, `canonical-counts`. The grouped action evaluates the original three descriptor families; rules reruns repeated nested interval selection; challenges reads the newly generated rule. Canonical configuration counts merge equivalent descriptor orders without altering predictions. No saved model result is needed to start the workflow. The record-random comparison and broader 79-record historical outputs are preserved in the earlier archive, rather than represented as new 72-record fits.
 
-To regenerate only the deterministic window and rule figures:
+## File map
 
-```bash
-python scripts/run_pipeline.py --mode figures
-```
+- `conservative_reanalysis/data/`: primary 72-record input, full 141-row adjudication ledger, broader 79-record sensitivity input and record-level process annotations.
+- `conservative_reanalysis/scripts/`: nested regression, family diagnostics, direct classification and paired process/phase code.
+- `historical_141/`: original development/challenge data and executable historical analyses.
+- `references/`: DOI-bearing literature manifests and the manuscript bibliography.
+- `LICENSE.md`: split code/data licensing and third-party-material exception.
 
-## Repository contents
+The 79-record file is a frozen input for sensitivity/provenance, not a second independent external dataset. Original literature target values and audit decisions are preserved. The primary data retain 25/25/22 records in 3d-transition-metal, rare-earth-rich and transition-metal–metalloid families. No copyrighted source-article PDFs are redistributed.
 
-| Path | Contents |
-|---|---|
-| `data/raw/` | Original 199-record numerical table and the record-random comparison used in the validation-design figure |
-| `data/processed/` | 199-row provenance table, 141-row analysis table, 32-record historical audit, 26-row five-paper challenge table, and processing-state sensitivity pairs |
-| `references/` | DOI-bearing source manifests for all analysis cohorts and the original package bibliography |
-| `scripts/` | Verification, grouped regression, TreeSHAP, rule selection, external evaluation, full-text audit assembly, process-aware modelling, and figure-generation code |
-| `results/` | Supplied numerical outputs needed to audit the manuscript claims |
-| `figures/` | Final manuscript Figures 1–8 |
-| `docs/` | Data dictionary, claim-to-file map, reviewer guide, reproducibility notes, verification report, and checksums |
+## Archive status
 
-## Data cohorts
+The previous release v1.2.0 is archived at https://doi.org/10.5281/zenodo.23102726. It does not contain the conservative refits. A new Zenodo version is being prepared for this source update; its DOI will be added only after the actual record is available. The journal Supplementary Data contains the complete numerical reference outputs, exact inputs and plotting sources. Git history and the earlier DOI preserve previous tracked results; the current branch contains source material only.
 
-- **Development data:** 199 literature measurement records mapped to 42 publication sources and consolidated to 141 unique descriptor–Tc rows using eleven composition descriptors plus Tc as the deduplication key.
-- **Historical audit:** 32 records absent from the 141-row development table: 14 experimental HEA/MEA/CCA controls, 15 ordered Mn–Ni–Si-based out-of-domain stress records, and 3 simulation sensitivity records.
-- **Targeted five-paper challenge:** 26 rows retaining primary states, alternate processing states, transition-ambiguity cases, and an exclusion log. The primary classification analysis uses 13 rows. Because target relevance influenced retrieval, this cohort is a stress test rather than a population-level external validation set.
+## Funding
 
-## Processing, phase, and target-semantics audit
-
-The 42 development-source articles were checked at full-text level for synthesis route, thermal state, product form, phase constitution, and the meaning of the reported target temperature. Conservative record-level rules yield 102 model-eligible unique records across 34 publications. Thirty-one records from six publications are held out pending target review, and eight further records lack an unambiguous record-level process/phase mapping. No flagged or unverified record enters the process-aware model.
-
-The audit trail is in `results/processing_phase_extension/target_semantics_audit.csv` and `publication_annotation_audit.csv`; the full method and file map are in `docs/PROCESSING_PHASE_AUDIT.md`.
-
-## Strict experimental Curie-temperature cohort
-
-The v1.2.0 full-text audit retains 79 directly reported experimental Curie temperatures from 26 publications. The 62 excluded rows comprise 21 Néel temperatures, 18 secondary-source-only values, 7 proxy temperatures, 7 state-ambiguous values, 6 other non-Curie transitions, and 3 conflicting assignments. The strict cohort contains 32 3d-transition-metal, 25 rare-earth-rich, and 22 transition-metal–metalloid records. Family membership explains 60.5% of total target variance.
-
-All decisions and corrected values are in `results/strict_tc_audit/strict_tc_record_audit.csv`; the retained table is `strict_experimental_tc_79.csv`.
-
-## Headline values
-
-- Publication-grouped HEA-descriptor LightGBM: OOF R² = 0.607, RMSE = 93.6 K, MAE = 57.7 K.
-- Strict 79-record equal-budget grouped comparison: SVR is best, with OOF R² = 0.610, RMSE = 101.2 K, and MAE = 66.3 K.
-- Across five repeated grouped partitions, SVR gives R² = 0.468 ± 0.126; a family-mean baseline gives R² = 0.505 ± 0.004.
-- Within-family R² values are 0.198 (3d-TM), −1.791 (RE-rich), and −0.297 (TM-metalloid); every leave-one-family-out R² is negative.
-- Direct grouped logistic classification of the 250–350 K window gives balanced accuracy = 0.726, MCC = 0.433, and enrichment = 1.59×.
-- On the strict 71-record/24-publication process cohort, adding process/phase fields changes R² from 0.305 to 0.328; the paired cluster-bootstrap interval crosses zero (ΔR² 95% interval −0.083 to +0.093).
-- Repeated nested F1-first rule selection: balanced accuracy = 0.694 ± 0.039 and MCC = 0.374 ± 0.075.
-- Historical 32-record fixed-family audit: balanced accuracy = 0.860; within the Mn-based family, balanced accuracy = 0.563 and enrichment = 1.07×.
-- Full-development candidate in the 13-record primary challenge: TP/TN/FP/FN = 8/0/4/1, balanced accuracy = 0.444, MCC = −0.192.
-- Same nominal Ag-containing composition: reported Tc changes from 209 K in the as-rolled state to 295 K after annealing.
-
-## Source articles and copyright
-
-Copyrighted article PDFs are not redistributed. Each literature-derived record is traceable through the DOI-bearing source manifests in `references/`. See `LICENSE.md` for the repository's split code/data licensing and third-party-material exception.
-
-## Citation
-
-Please cite the associated manuscript and the archived release:
-
-> Şarlar K 2026 *Full-text target auditing reveals chemistry-regime confounding in composition-only Curie-temperature screening*, version v1.2.0 (Zenodo), doi: [10.5281/zenodo.23102726](https://doi.org/10.5281/zenodo.23102726)
-
-The all-versions DOI `10.5281/zenodo.22901861` always resolves to the latest archived version.
-
-Start with `docs/REVIEWER_GUIDE.md` for a short audit route and `docs/ANALYSIS_MAP.md` for exact table/figure provenance.
+Supported by the Scientific and Technological Research Council of Türkiye (TÜBİTAK), Career Development Program (3501), project 125F375.

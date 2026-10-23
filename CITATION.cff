@@ -1,31 +1,25 @@
 cff-version: 1.2.0
-message: "If you use this dataset or analysis code, please cite the associated manuscript and archived repository release."
-title: "Full-text target auditing reveals chemistry-regime confounding in composition-only Curie-temperature screening"
+message: "Please cite the associated manuscript and the archived version actually used."
+title: "Target auditing exposes chemistry-regime dependence in Curie-temperature models for magnetocaloric high-entropy alloys"
 type: software
-version: "1.2.0"
-date-released: 2026-10-02
-repository-code: "https://github.com/kaansarlar/Publication-grouped-evaluation-exposes-the-limits-of-composition-only-Curie-temperature-screening-"
-repository-artifact: "https://github.com/kaansarlar/Publication-grouped-evaluation-exposes-the-limits-of-composition-only-Curie-temperature-screening-/releases/tag/v1.2.0"
-doi: "10.5281/zenodo.23102726"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.23102726"
-    description: "Zenodo DOI for release v1.2.0"
-  - type: doi
-    value: "10.5281/zenodo.22901861"
-    description: "Zenodo concept DOI resolving to the latest archived release"
+version: "1.3.0"
+repository-code: "https://github.com/kaansarlar/Target-auditing-exposes-chemistry-regime-dependence-in-Curie-temperature-models-for-magnetocaloric-h"
 authors:
   - family-names: "Şarlar"
     given-names: "Kağan"
     email: "kagansarlar@kmu.edu.tr"
+references:
+  - type: software
+    title: "Full-text target auditing reveals chemistry-regime confounding in composition-only Curie-temperature screening"
+    authors:
+      - family-names: "Şarlar"
+        given-names: "Kağan"
+    year: 2026
+    version: "1.2.0"
+    doi: "10.5281/zenodo.23102726"
 keywords:
-  - high-entropy alloys
   - Curie temperature
+  - high-entropy alloys
+  - target auditing
+  - grouped validation
   - materials informatics
-  - publication-grouped validation
-  - target semantics
-  - chemistry-regime confounding
-  - processing history
-  - phase constitution
-  - SHAP
-  - data leakage

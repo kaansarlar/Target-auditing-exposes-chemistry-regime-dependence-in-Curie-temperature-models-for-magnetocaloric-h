@@ -1,9 +1,11 @@
-.venv/
 __pycache__/
 *.py[cod]
-.DS_Store
+.venv/
+results/
 reproduced/
-*.log
-source_articles/
-manuscript_drafts/
-*.tmp
+outputs/
+figures/
+*.pdf
+*.png
+*.tiff
+*.zip
