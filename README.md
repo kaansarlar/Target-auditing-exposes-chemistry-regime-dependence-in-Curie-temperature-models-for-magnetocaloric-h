@@ -43,7 +43,7 @@ The 79-record file is a frozen input for sensitivity/provenance, not a second in
 
 ## Archive status
 
-The previous release v1.2.0 is archived at https://doi.org/10.5281/zenodo.23102726. It does not contain the conservative refits. A new Zenodo version is being prepared for this source update; its DOI will be added only after the actual record is available. The journal Supplementary Data contains the complete numerical reference outputs, exact inputs and plotting sources. Git history and the earlier DOI preserve previous tracked results; the current branch contains source material only.
+Release v1.3.0 is identified by https://doi.org/10.5281/zenodo.23604881. The source ZIP contains data and reproducible code; Supplementary_Data.zip separately preserves the conservative numerical reference outputs, exact inputs and plotting sources. The previous v1.2.0 archive at https://doi.org/10.5281/zenodo.23102726 contains the broader-cohort analysis and does not contain the conservative refits. Git history and the earlier DOI preserve previous tracked results; the current branch contains source material only.
 
 ## Funding
 

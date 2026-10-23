@@ -3,6 +3,8 @@ message: "Please cite the associated manuscript and the archived version actuall
 title: "Target auditing exposes chemistry-regime dependence in Curie-temperature models for magnetocaloric high-entropy alloys"
 type: software
 version: "1.3.0"
+date-released: "2026-10-24"
+doi: "10.5281/zenodo.23604881"
 repository-code: "https://github.com/kaansarlar/Target-auditing-exposes-chemistry-regime-dependence-in-Curie-temperature-models-for-magnetocaloric-h"
 authors:
   - family-names: "Şarlar"
