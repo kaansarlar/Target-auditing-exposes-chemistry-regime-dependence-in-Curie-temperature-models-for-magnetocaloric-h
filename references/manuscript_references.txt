@@ -14,7 +14,7 @@
 
 [8] Eggert BGF, Delczeg-Czirjak EK, Hauback BC and Frommen C 2023 Magnetic transitions in V-Fe-Co-Ni-Cu-based high entropy alloys. Mater Today Phys 35 101116. https://doi.org/10.1016/j.mtphys.2023.101116
 
-[9] Rao Z et al 2022 Machine learning–enabled high-entropy alloy discovery. Science 378 78-85. https://doi.org/10.1126/science.abo4940
+[9] Rao Z, Tung PY, Xie R, Wei Y, Zhang H, Ferrari A, Klaver TPC, Körmann F, Sukumar PT, Kwiatkowski da Silva A, Chen Y, Li Z, Ponge D, Neugebauer J, Gutfleisch O, Bauer S and Raabe D 2022 Machine learning–enabled high-entropy alloy discovery. Science 378 78-85. https://doi.org/10.1126/science.abo4940
 
 [10] Liu X, Zhang J and Pei Z 2023 Machine learning for high-entropy alloys: Progress, challenges and opportunities. Prog Mater Sci 131 101018. https://doi.org/10.1016/j.pmatsci.2022.101018
 
@@ -26,94 +26,102 @@
 
 [14] Jung SG, Jung G and Cole JM 2024 Machine-learning prediction of Curie temperature from chemical compositions of ferromagnetic materials. J Chem Inf Model 64 6388-6409. https://doi.org/10.1021/acs.jcim.4c00947
 
-[15] de Castro PB et al 2020 Machine-learning-guided discovery of the gigantic magnetocaloric effect in HoB₂ near the hydrogen liquefaction temperature. NPG Asia Mater 12 35. https://doi.org/10.1038/s41427-020-0214-y
+[15] Castro PBd, Terashima K, Yamamoto TD, Hou Z, Iwasaki S, Matsumoto R, Adachi S, Saito Y, Song P, Takeya H and Takano Y 2020 Machine-learning-guided discovery of the gigantic magnetocaloric effect in HoB₂ near the hydrogen liquefaction temperature. NPG Asia Mater 12 35. https://doi.org/10.1038/s41427-020-0214-y
 
 [16] Castro-Anaya LE, Marese E, Lozano JA, Peixer GF, Barbosa JR Jr. and Gómez González SY 2025 Machine learning methodologies applied to magnetocaloric perovskites discovery. J Chem Inf Model 65 1812-1825. https://doi.org/10.1021/acs.jcim.4c01944
 
 [17] Tang YC, Cao KY, Ma RN, Wang JB, Zhang Y, Zhang DY, Zhou C, Tian FH, Fang MX and Yang S 2025 Accurate prediction of magnetocaloric effect in NiMn-based Heusler alloys by prioritizing phase transitions through explainable machine learning. Rare Met 44 639-651. https://doi.org/10.1007/s12598-024-02953-w
 
-[18] Schmidt J, Marques MRG, Botti S and Marques MAL 2019 Recent advances and applications of machine learning in solid-state materials science. npj Comput Mater 5 83. https://doi.org/10.1038/s41524-019-0221-0
+[18] Şarlar K 2026 Machine learning screening of magnetocaloric high-entropy alloys using a field-normalized ΔSref target. J Magn Magn Mater 650 174120. https://doi.org/10.1016/j.jmmm.2026.174120
 
-[19] Ward L et al 2018 Matminer: An open source toolkit for materials data mining. Comput Mater Sci 152 60-69. https://doi.org/10.1016/j.commatsci.2018.05.018
+[19] Schmidt J, Marques MRG, Botti S and Marques MAL 2019 Recent advances and applications of machine learning in solid-state materials science. npj Comput Mater 5 83. https://doi.org/10.1038/s41524-019-0221-0
 
-[20] Damewood J, Karaguesian J, Lunger JR, Tan AR, Xie M, Peng J and Gómez-Bombarelli R 2023 Representations of materials for machine learning. Annu Rev Mater Res 53 399-426. https://doi.org/10.1146/annurev-matsci-080921-085947
+[20] Ward L, Dunn A, Faghaninia A, Zimmermann NER, Bajaj S, Wang Q, Montoya J, Chen J, Bystrom K, Dylla M, Chard K, Asta M, Persson KA, Snyder GJ, Foster I and Jain A 2018 Matminer: An open source toolkit for materials data mining. Comput Mater Sci 152 60-69. https://doi.org/10.1016/j.commatsci.2018.05.018
 
-[21] Qiao L, Liu Y and Zhu J 2021 A focused review on machine learning aided high-throughput methods in high entropy alloy. J Alloys Compd 877 160295. https://doi.org/10.1016/j.jallcom.2021.160295
+[21] Damewood J, Karaguesian J, Lunger JR, Tan AR, Xie M, Peng J and Gómez-Bombarelli R 2023 Representations of materials for machine learning. Annu Rev Mater Res 53 399-426. https://doi.org/10.1146/annurev-matsci-080921-085947
 
-[22] Xu P, Ji X, Li M and Lu W 2023 Small data machine learning in materials science. npj Comput Mater 9 42. https://doi.org/10.1038/s41524-023-01000-z
+[22] Qiao L, Liu Y and Zhu J 2021 A focused review on machine learning aided high-throughput methods in high entropy alloy. J Alloys Compd 877 160295. https://doi.org/10.1016/j.jallcom.2021.160295
 
-[23] Şarlar K 2026 Machine learning screening of magnetocaloric high-entropy alloys using a field-normalized ΔSref target. J Magn Magn Mater 650 174120. https://doi.org/10.1016/j.jmmm.2026.174120
+[23] Xu P, Ji X, Li M and Lu W 2023 Small data machine learning in materials science. npj Comput Mater 9 42. https://doi.org/10.1038/s41524-023-01000-z
 
-[24] Kapoor S and Narayanan A 2023 Leakage and the reproducibility crisis in machine-learning-based science. Patterns 4 100804. https://doi.org/10.1016/j.patter.2023.100804
+[24] Dunn A, Wang Q, Ganose A, Dopp D and Jain A 2020 Benchmarking materials property prediction methods: the Matbench test set and Automatminer reference algorithm. npj Comput Mater 6 138. https://doi.org/10.1038/s41524-020-00406-3
 
-[25] Vorobiov S, Pylypenko O, Bereznyak Y, Pazukha I, Čižmár E, Orendáč M and Komanicky V 2021 Magnetic properties, magnetoresistive, and magnetocaloric effects of AlCrFeCoNiCu thin-film high-entropy alloys prepared by the co-evaporation technique. Appl Phys A 127 179. https://doi.org/10.1007/s00339-020-04145-6
+[25] Meredig B, Antono E, Church C, Hutchinson M, Ling J, Paradiso S, Blaiszik B, Foster I, Gibbons B, Hattrick-Simpers J, Mehta A and Ward L 2018 Can machine learning identify the next high-temperature superconductor? Examining extrapolation performance for materials discovery. Mol Syst Des Eng 3 819-825. https://doi.org/10.1039/c8me00012c
 
-[26] Quintana-Nedelcos A, Leong Z and Morley NA 2021 Study of dual-phase functionalisation of NiCoFeCr-Alₓ multicomponent alloys for the enhancement of magnetic properties and magneto-caloric effect. Mater Today Energy 20 100621. https://doi.org/10.1016/j.mtener.2020.100621
+[26] Borg CKH, Muckley ES, Nyby C, Saal JE, Ward L, Mehta A and Meredig B 2023 Quantifying the performance of machine learning models in materials discovery. Digital Discovery 2 327-338. https://doi.org/10.1039/d2dd00113f
 
-[27] Belyea DD, Lucas MS, Michel E, Horwath J and Miller CW 2015 Tunable magnetocaloric effect in transition metal alloys. Sci Rep 5 15755. https://doi.org/10.1038/srep15755
+[27] Kapoor S and Narayanan A 2023 Leakage and the reproducibility crisis in machine-learning-based science. Patterns 4 100804. https://doi.org/10.1016/j.patter.2023.100804
 
-[28] Na SM, Lambert PK, Kim H, Paglione J and Jones NJ 2019 Thermomagnetic properties and magnetocaloric effect of FeCoNiCrAl-type high-entropy alloys. AIP Adv 9 035010. https://doi.org/10.1063/1.5079394
+[28] Cawley GC and Talbot NLC 2010 On over-fitting in model selection and subsequent selection bias in performance evaluation. J Mach Learn Res 11 2079–2107. https://jmlr.org/papers/v11/cawley10a.html
 
-[29] Cowles B, Backman D and Dutton R 2012 Verification and validation of ICME methods and models for aerospace applications. Integr Mater Manuf Innov 1 3-18. https://doi.org/10.1186/2193-9772-1-2
+[29] Vorobiov S, Pylypenko O, Bereznyak Y, Pazukha I, Čižmár E, Orendáč M and Komanicky V 2021 Magnetic properties, magnetoresistive, and magnetocaloric effects of AlCrFeCoNiCu thin-film high-entropy alloys prepared by the co-evaporation technique. Appl Phys A 127 179. https://doi.org/10.1007/s00339-020-04145-6
 
-[30] Zhang Y, Zhou YJ, Lin JP, Chen GL and Liaw PK 2008 Solid-solution phase formation rules for multi-component alloys. Adv Eng Mater 10 534-538. https://doi.org/10.1002/adem.200700240
+[30] Quintana-Nedelcos A, Leong Z and Morley NA 2021 Study of dual-phase functionalisation of NiCoFeCr-Alₓ multicomponent alloys for the enhancement of magnetic properties and magneto-caloric effect. Mater Today Energy 20 100621. https://doi.org/10.1016/j.mtener.2020.100621
 
-[31] Guo S and Liu CT 2011 Phase stability in high entropy alloys: Formation of solid-solution phase or amorphous phase. Prog Nat Sci: Mater Int 21 433-446. https://doi.org/10.1016/s1002-0071(12)60080-x
+[31] Belyea DD, Lucas MS, Michel E, Horwath J and Miller CW 2015 Tunable magnetocaloric effect in transition metal alloys. Sci Rep 5 15755. https://doi.org/10.1038/srep15755
 
-[32] Perrin A, Sorescu M, Burton MT, Laughlin DE and McHenry M 2017 The Role of Compositional Tuning of the Distributed Exchange on Magnetocaloric Properties of High-Entropy Alloys. JOM 69 2125-2129. https://doi.org/10.1007/s11837-017-2523-3
+[32] Na SM, Lambert PK, Kim H, Paglione J and Jones NJ 2019 Thermomagnetic properties and magnetocaloric effect of FeCoNiCrAl-type high-entropy alloys. AIP Adv 9 035010. https://doi.org/10.1063/1.5079394
 
-[33] Cawley GC and Talbot NLC 2010 On over-fitting in model selection and subsequent selection bias in performance evaluation. J Mach Learn Res 11 2079–2107. https://jmlr.org/papers/v11/cawley10a.html
+[33] Cowles B, Backman D and Dutton R 2012 Verification and validation of ICME methods and models for aerospace applications. Integr Mater Manuf Innov 1 3-18. https://doi.org/10.1186/2193-9772-1-2
 
-[34] Chicco D and Jurman G 2020 The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation. BMC Genomics 21 6. https://doi.org/10.1186/s12864-019-6413-7
+[34] Zhang Y, Zhou YJ, Lin JP, Chen GL and Liaw PK 2008 Solid-solution phase formation rules for multi-component alloys. Adv Eng Mater 10 534-538. https://doi.org/10.1002/adem.200700240
 
-[35] Efron B 1979 Bootstrap methods: Another look at the jackknife. Ann Stat 7 1-26. https://doi.org/10.1214/aos/1176344552
+[35] Guo S and Liu CT 2011 Phase stability in high entropy alloys: Formation of solid-solution phase or amorphous phase. Prog Nat Sci: Mater Int 21 433-446. https://doi.org/10.1016/s1002-0071(12)60080-x
 
-[36] Lundberg SM, Erion G, Chen H, DeGrave A, Prutkin JM, Nair B, Katz R, Himmelfarb J, Bansal N and Lee SI 2020 From local explanations to global understanding with explainable AI for trees. Nat Mach Intell 2 56-67. https://doi.org/10.1038/s42256-019-0138-9
+[36] Kundu A, Ghosh S, Banerjee R, Ghosh S and Sanyal B 2017 New quaternary half-metallic ferromagnets with large Curie temperatures. Sci Rep 7 1803. https://doi.org/10.1038/s41598-017-01782-5
 
-[37] Truchon JF and Bayly CI 2007 Evaluating virtual screening methods: Good and bad metrics for the “early recognition” problem. J Chem Inf Model 47 488-508. https://doi.org/10.1021/ci600426e
+[37] Mandal TK, Felser C, Greenblatt M and Kübler J 2008 Magnetic and electronic properties of double perovskites and estimation of their Curie temperatures by ab initio calculations. Phys Rev B 78 134431. https://doi.org/10.1103/physrevb.78.134431
 
-[38] Şarlar K 2026 Full-text target auditing reveals chemistry-regime confounding in composition-only Curie-temperature screening. Version v1.2.0. Zenodo [dataset and software]. https://doi.org/10.5281/zenodo.23102726
+[38] He Q and Yang Y 2018 On lattice distortion in high entropy alloys. Front Mater 5 42. https://doi.org/10.3389/fmats.2018.00042
 
-[39] Rosa Rocha V, Cesare JP and Messina TC 2022 Searching for magnetic high entropy alloy treasure in CoCrₓFeNiQᵧ. Intermetallics 146 107581. https://doi.org/10.1016/j.intermet.2022.107581
+[39] Ye YF, Zhang YH, He QF, Zhuang Y, Wang S, Shi SQ, Hu A, Fan J and Yang Y 2018 Atomic-scale distorted lattice in chemically disordered equimolar complex alloys. Acta Mater 150 182-194. https://doi.org/10.1016/j.actamat.2018.03.008
 
-[40] Wilkinson MD et al 2016 The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3 160018. https://doi.org/10.1038/sdata.2016.18
+[40] Kumar N and Waghmare UV 2023 Entropic stabilization and descriptors of structural transformation in high entropy alloys. Acta Mater 255 119077. https://doi.org/10.1016/j.actamat.2023.119077
 
-[41] Kundu A, Ghosh S, Banerjee R, Ghosh S and Sanyal B 2017 New quaternary half-metallic ferromagnets with large Curie temperatures. Sci Rep 7 1803. https://doi.org/10.1038/s41598-017-01782-5
+[41] Zhang L, Chen H, Tao X, Cai H, Liu J, Ouyang Y, Peng Q and Du Y 2020 Machine learning reveals the importance of the formation enthalpy and atom-size difference in forming phases of high entropy alloys. Mater Des 193 108835. https://doi.org/10.1016/j.matdes.2020.108835
 
-[42] Mandal TK, Felser C, Greenblatt M and Kübler J 2008 Magnetic and electronic properties of double perovskites and estimation of their Curie temperatures by ab initio calculations. Phys Rev B 78 134431. https://doi.org/10.1103/physrevb.78.134431
+[42] Perrin A, Sorescu M, Burton MT, Laughlin DE and McHenry M 2017 The Role of Compositional Tuning of the Distributed Exchange on Magnetocaloric Properties of High-Entropy Alloys. JOM 69 2125-2129. https://doi.org/10.1007/s11837-017-2523-3
 
-[43] He Q and Yang Y 2018 On lattice distortion in high entropy alloys. Front Mater 5 42. https://doi.org/10.3389/fmats.2018.00042
+[43] Chicco D and Jurman G 2020 The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation. BMC Genomics 21 6. https://doi.org/10.1186/s12864-019-6413-7
 
-[44] Ye YF, Zhang YH, He QF, Zhuang Y, Wang S, Shi SQ, Hu A, Fan J and Yang Y 2018 Atomic-scale distorted lattice in chemically disordered equimolar complex alloys. Acta Mater 150 182-194. https://doi.org/10.1016/j.actamat.2018.03.008
+[44] Efron B 1979 Bootstrap methods: Another look at the jackknife. Ann Stat 7 1-26. https://doi.org/10.1214/aos/1176344552
 
-[45] Kumar N and Waghmare UV 2023 Entropic stabilization and descriptors of structural transformation in high entropy alloys. Acta Mater 255 119077. https://doi.org/10.1016/j.actamat.2023.119077
+[45] Lundberg SM, Erion G, Chen H, DeGrave A, Prutkin JM, Nair B, Katz R, Himmelfarb J, Bansal N and Lee SI 2020 From local explanations to global understanding with explainable AI for trees. Nat Mach Intell 2 56-67. https://doi.org/10.1038/s42256-019-0138-9
 
-[46] Zhang L, Chen H, Tao X, Cai H, Liu J, Ouyang Y, Peng Q and Du Y 2020 Machine learning reveals the importance of the formation enthalpy and atom-size difference in forming phases of high entropy alloys. Mater Des 193 108835. https://doi.org/10.1016/j.matdes.2020.108835
+[46] Truchon JF and Bayly CI 2007 Evaluating virtual screening methods: Good and bad metrics for the “early recognition” problem. J Chem Inf Model 47 488-508. https://doi.org/10.1021/ci600426e
 
-[47] Wei S, Shen H, Zhang L, Cao F and Sun J 2024 Magnetic properties and magnetocaloric effects of rare-earth based high-entropy amorphous microwires. J Mater Res Technol 33 6216-6222. https://doi.org/10.1016/j.jmrt.2024.11.019
+[47] Şarlar K 2026 Full-text target auditing reveals chemistry-regime confounding in composition-only Curie-temperature screening. Version v1.2.0. Zenodo [dataset and software]. https://doi.org/10.5281/zenodo.23102726
 
-[48] Wei S, Dahlström A, Shen H, Zhang L, Schönecker S, Vitos L, Sun J and Li X 2024 Microstructure and magnetocaloric behavior of GdDyCoAl-based high-entropy metallic glass microwires. J Alloys Compd 1006 176308. https://doi.org/10.1016/j.jallcom.2024.176308
+[48] Şarlar K 2026 Target auditing exposes chemistry-regime dependence in Curie-temperature models for magnetocaloric high-entropy alloys. Version v1.3.0. Zenodo [dataset and software]. https://doi.org/10.5281/zenodo.23604881
 
-[49] Qu Y, Wu Z, Peng W, Cao Y and Gamzatov A 2026 Annealing-free Gd₀.₂₅Tb₀.₂₅Ho₀.₂₅Er₀.₂₅CoNi high entropy alloy strip with giant refrigeration capacity and wide operating temperature range for cryogenic magnetocaloric applications. J Rare Earths. https://doi.org/10.1016/j.jre.2026.01.036
+[49] Wei S, Shen H, Zhang L, Cao F and Sun J 2024 Magnetic properties and magnetocaloric effects of rare-earth based high-entropy amorphous microwires. J Mater Res Technol 33 6216-6222. https://doi.org/10.1016/j.jmrt.2024.11.019
 
-[50] Gao L, Li Q, Xu J, Jin X and Cheng J 2026 Glass-forming ability and magnetocaloric performance of Gd₁₈.₃₄₊ₓDy₁₈.₃₃Er₁₈.₃₃₋ₓAl₂₀Fe₂₅ (x = 0, 3, 6, 9) high-entropy amorphous alloys. Intermetallics 189 109113. https://doi.org/10.1016/j.intermet.2025.109113
+[50] Wei S, Dahlström A, Shen H, Zhang L, Schönecker S, Vitos L, Sun J and Li X 2024 Microstructure and magnetocaloric behavior of GdDyCoAl-based high-entropy metallic glass microwires. J Alloys Compd 1006 176308. https://doi.org/10.1016/j.jallcom.2024.176308
 
-[51] Guisado-Arenas E, Cui Z, Moreno-Ramírez LM, Romero-Muñiz C, Law JY and Franco V 2026 A criticality-aware design framework for sustainable magnetocaloric high-entropy alloys: The MnFeNiCuSi system. Mater Futures 5 025601. https://doi.org/10.1088/2752-5724/ae36c5
+[51] Qu Y, Wu Z, Peng W, Cao Y and Gamzatov A 2026 Annealing-free Gd₀.₂₅Tb₀.₂₅Ho₀.₂₅Er₀.₂₅CoNi high entropy alloy strip with giant refrigeration capacity and wide operating temperature range for cryogenic magnetocaloric applications. J Rare Earths. https://doi.org/10.1016/j.jre.2026.01.036
 
-[52] Zhai X, Si X, Dong Y and Liu Y 2026 Tailoring Si/Mn ratio to optimize magnetocaloric performance of FeCoNi-based high-entropy alloys. Intermetallics 188 109024. https://doi.org/10.1016/j.intermet.2025.109024
+[52] Gao L, Li Q, Xu J, Jin X and Cheng J 2026 Glass-forming ability and magnetocaloric performance of Gd₁₈.₃₄₊ₓDy₁₈.₃₃Er₁₈.₃₃₋ₓAl₂₀Fe₂₅ (x = 0, 3, 6, 9) high-entropy amorphous alloys. Intermetallics 189 109113. https://doi.org/10.1016/j.intermet.2025.109113
 
-[53] Pei Z, Yin H, Shao S, Zhang Y, Gao M, Song L, Xu W, Tong Y, Jin X, Xu J, Xiang M, Wang JQ and Huo J 2026 The magnetocaloric properties of Gd₃₆RE₂₀Ni₂₀Al₂₄ (RE = Dy, Ho, Er) amorphous high-entropy alloys for hydrogen liquefaction application. J Non-Cryst Solids 671 123838. https://doi.org/10.1016/j.jnoncrysol.2025.123838
+[53] Guisado-Arenas E, Cui Z, Moreno-Ramírez LM, Romero-Muñiz C, Law JY and Franco V 2026 A criticality-aware design framework for sustainable magnetocaloric high-entropy alloys: The MnFeNiCuSi system. Mater Futures 5 025601. https://doi.org/10.1088/2752-5724/ae36c5
 
-[54] Huang PY, Zheng ZG, Da S, Qiu ZG, Wang G and Zeng DC 2024 Large magnetocaloric effect and negative thermal expansion of Mn-Ni-Si-Fe-Co-Ge high-entropy alloys. J Alloys Compd 1007 176394. https://doi.org/10.1016/j.jallcom.2024.176394
+[54] Zhai X, Si X, Dong Y and Liu Y 2026 Tailoring Si/Mn ratio to optimize magnetocaloric performance of FeCoNi-based high-entropy alloys. Intermetallics 188 109024. https://doi.org/10.1016/j.intermet.2025.109024
 
-[55] Xue L, Shao L, Zhang B, Li Z, Cheng J and Shen B 2024 Magnetic behaviors and magnetocaloric effects in rare earth high-entropy amorphous/nanocrystalline alloys. J Rare Earths 42 129-136. https://doi.org/10.1016/j.jre.2022.12.001
+[55] Pei Z, Yin H, Shao S, Zhang Y, Gao M, Song L, Xu W, Tong Y, Jin X, Xu J, Xiang M, Wang JQ and Huo J 2026 The magnetocaloric properties of Gd₃₆RE₂₀Ni₂₀Al₂₄ (RE = Dy, Ho, Er) amorphous high-entropy alloys for hydrogen liquefaction application. J Non-Cryst Solids 671 123838. https://doi.org/10.1016/j.jnoncrysol.2025.123838
 
-[56] Induja S, Murugan K, Vanaraj PW, Venugopal K, Kirana R and Sinha J 2025 Unraveling the ambient temperature magnetic cooling and critical behavior of FeCoNiCr₀.₆₃Gdₓ high entropy alloys. J Solid State Chem 349 125412. https://doi.org/10.1016/j.jssc.2025.125412
+[56] Huang PY, Zheng ZG, Da S, Qiu ZG, Wang G and Zeng DC 2024 Large magnetocaloric effect and negative thermal expansion of Mn-Ni-Si-Fe-Co-Ge high-entropy alloys. J Alloys Compd 1007 176394. https://doi.org/10.1016/j.jallcom.2024.176394
 
-[57] Dastanpour E, Huang S, Ström V, Varga LK, Vitos L and Schönecker S 2024 An assessment of the Al₅₀Cr₂₁₋ₓMn₁₇₊ₓCo₁₂ (x = 0, 4, 8) high-entropy alloys for magnetocaloric refrigeration application. J Alloys Compd 984 173977. https://doi.org/10.1016/j.jallcom.2024.173977
+[57] Xue L, Shao L, Zhang B, Li Z, Cheng J and Shen B 2024 Magnetic behaviors and magnetocaloric effects in rare earth high-entropy amorphous/nanocrystalline alloys. J Rare Earths 42 129-136. https://doi.org/10.1016/j.jre.2022.12.001
 
-[58] Murugan K, Ayyasamy S and Venugopal K 2025 An investigation on the magnetic entropy change of Ni₃₈Co₁₂Mn₂₅V₂₅. Results Surf Interfaces 21 100657. https://doi.org/10.1016/j.rsurfi.2025.100657
+[58] Induja S, Murugan K, Vanaraj PW, Venugopal K, Kirana R and Sinha J 2025 Unraveling the ambient temperature magnetic cooling and critical behavior of FeCoNiCr₀.₆₃Gdₓ high entropy alloys. J Solid State Chem 349 125412. https://doi.org/10.1016/j.jssc.2025.125412
 
-[59] Pan Y and Li Y 2026 Magnetic phase transition and magnetocaloric effect in rare-earth-free high entropy alloys MnCoNiFeCu. J Magn Magn Mater 641 173793. https://doi.org/10.1016/j.jmmm.2025.173793
+[59] Dastanpour E, Huang S, Ström V, Varga LK, Vitos L and Schönecker S 2024 An assessment of the Al₅₀Cr₂₁₋ₓMn₁₇₊ₓCo₁₂ (x = 0, 4, 8) high-entropy alloys for magnetocaloric refrigeration application. J Alloys Compd 984 173977. https://doi.org/10.1016/j.jallcom.2024.173977
 
-[60] Johnson V and Frederick CG 1973 Magnetic and crystallographic properties of ternary manganese silicides with ordered Co₂P structure. Phys Status Solidi A 20 331-335. https://doi.org/10.1002/pssa.2210200133
+[60] Murugan K, Ayyasamy S and Venugopal K 2025 An investigation on the magnetic entropy change of Ni₃₈Co₁₂Mn₂₅V₂₅. Results Surf Interfaces 21 100657. https://doi.org/10.1016/j.rsurfi.2025.100657
+
+[61] Pan Y and Li Y 2026 Magnetic phase transition and magnetocaloric effect in rare-earth-free high entropy alloys MnCoNiFeCu. J Magn Magn Mater 641 173793. https://doi.org/10.1016/j.jmmm.2025.173793
+
+[62] Johnson V and Frederick CG 1973 Magnetic and crystallographic properties of ternary manganese silicides with ordered Co₂P structure. Phys Status Solidi A 20 331-335. https://doi.org/10.1002/pssa.2210200133
+
+[63] Rosa Rocha V, Cesare JP and Messina TC 2022 Searching for magnetic high entropy alloy treasure in CoCrₓFeNiQᵧ. Intermetallics 146 107581. https://doi.org/10.1016/j.intermet.2022.107581
+
+[64] Wilkinson MD, Dumontier M, Aalbersberg IJ, Appleton G, Axton M, Baak A, Blomberg N, Boiten JW, da Silva Santos LB, Bourne PE, Bouwman J, Brookes AJ, Clark T, Crosas M, Dillo I, Dumon O, Edmunds S, Evelo CT, Finkers R, Gonzalez-Beltran A, Gray AJG, Groth P, Goble C, Grethe JS, Heringa J, ’t Hoen PAC, Hooft R, Kuhn T, Kok R, Kok J, Lusher SJ, Martone ME, Mons A, Packer AL, Persson B, Rocca-Serra P, Roos M, van Schaik R, Sansone SA, Schultes E, Sengstag T, Slater T, Strawn G, Swertz MA, Thompson M, van der Lei J, van Mulligen E, Velterop J, Waagmeester A, Wittenburg P, Wolstencroft K, Zhao J and Mons B 2016 The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3 160018. https://doi.org/10.1038/sdata.2016.18

@@ -2,7 +2,7 @@
 
 Data and reproducible analysis code for **Target auditing exposes chemistry-regime dependence in Curie-temperature models for magnetocaloric high-entropy alloys**.
 
-This source repository contains data, source manifests, code, environment requirements and documentation. Model outputs, saved predictions, fitted models and rendered figures are not tracked. Generate them in a separate output directory; reference numerical outputs remain available in the journal Supplementary Data archive and in the earlier Zenodo release where applicable.
+This source repository contains data, source manifests, code, environment requirements and documentation. Model outputs, saved predictions, fitted models and rendered figures are not tracked. Generate them in a separate output directory; reference numerical outputs are publicly available in Supplementary_Data.zip at https://doi.org/10.5281/zenodo.23604881 and in the earlier Zenodo release where applicable.
 
 ## Primary conservative analysis
 
@@ -48,3 +48,7 @@ Release v1.3.0 is identified by https://doi.org/10.5281/zenodo.23604881. The sou
 ## Funding
 
 Supported by the Scientific and Technological Research Council of Türkiye (TÜBİTAK), Career Development Program (3501), project 125F375.
+
+## Manuscript documentation revision on 30 October 2026
+
+The manuscript bibliography and its reference-number map have been updated. Three methodological comparisons (Matbench, extrapolation validation, and discovery-performance evaluation) and a formal citation of the existing v1.3.0 archive were added. Source identifiers in data CSVs have not been renumbered: they are not manuscript citation numbers. The primary paper now describes publication–family nesting, limits on causal attribution, descriptive baseline comparisons and constructed literature challenges explicitly. These are literature and reporting updates; no data, analysis code, saved predictions or numerical results were changed. The numerical-analysis source snapshot remains commit f1e6a06ad5d590a4a3138a3ad90bb13e95b65c60, archived as v1.3.0. The current bibliography can differ from that immutable archived snapshot.
